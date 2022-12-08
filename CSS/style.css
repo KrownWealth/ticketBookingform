@@ -1,0 +1,91 @@
+
+
+#navigation {
+    padding: 1% 2% 2%;
+    background-color: black;
+
+
+}
+
+.navbar-brand {
+    margin-left: 4.5rem;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    color: #fff;
+}
+
+.nav-item{
+    margin-right: 4.5rem;
+}
+
+
+.navbar-brand:hover {
+
+    color: #bbb;
+}
+
+.nav-item .nav-link li {
+    padding-right: 30px;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+
+.nav-item .nav-link:active {
+    color: #555;
+}
+
+.nav-item .nav-link:hover {
+    color: #bbb;
+}
+
+
+#booking {
+    background: url(/pexels-luis-quintero-2774566.jpg);
+    background-color: black;
+    opacity: 1;
+    min-height: 100vh;
+}
+
+form {
+    width: 90%;
+    color: white;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.form-content {
+    padding-top: 50px;
+}
+
+
+.form-text {
+    font-size: 1rem;
+    color: #f1f1f1;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+}
+
+.form-title {
+    font-size: 4rem;
+}
+
+.btn {
+    font-weight: 700;
+    color: #fff;
+}
+
+@media only screen and (min-width:1024px) {
+
+    form {
+        width: 60%;
+    }
+}
